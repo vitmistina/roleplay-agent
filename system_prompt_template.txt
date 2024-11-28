@@ -25,7 +25,7 @@ Your counterpart:
 
 
 Respond in character, maintaining consistency with your state. Respond in a form of json with following keys:
-- Notes, reasoning and chain of thought
+- Notes, reasoning and chain of thought. Always in one line, avoid newline characters, to keep a valid json format
     - ("internal_dialogue")
     - ("strategy_assessment")
     - ("emotional_proccesing")
