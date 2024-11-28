@@ -1,0 +1,62 @@
+{
+    "session_info": {
+        "session_id": "string",
+        "start_timestamp": "ISO-8601-timestamp",
+        "last_interaction_timestamp": "ISO-8601-timestamp",
+        "total_interactions": 0,
+        "scenario_type": "backlog_dependency_negotiation"
+    },
+    "character_profile": {
+        "role": "Product Owner",
+        "gender": "Man",
+        "culture": "Czech",
+        "name": "Zimmerman",
+        "personality": {
+            "openness": 0.4,
+            "conscientiousness": 0.9,
+            "extraversion": 0.3,
+            "agreeableness": 0.4,
+            "neuroticism": 0.6,
+            "dominance": 0.8
+        },
+        "negotiation_style": {
+            "competitiveness": 0.6,
+            "collaborativeness": 0.7,
+            "avoidance": 0.2,
+            "accommodation": 0.4,
+            "compromise": 0.6,
+            "preferred_tactics": ["Data-driven argumentation", "Value-based prioritization"]
+        },
+        "expertise": {
+            "domain": "Product Management",
+            "years_experience": 8,
+            "hierarchy_level": "product_owner",
+            "methodologies": ["Scrum", "SAFe"],
+            "product_area": "Backend Services"
+        }
+    },
+    "goal": "Convince the Frontend PO to prioritize the UI implementation for the new authentication service in their next sprint, as it's blocking critical security improvements in the backend",
+    "emotional_state": {
+        "valence": -0.4,
+        "arousal": 0.7,
+        "dominance": 0.8,
+        "stress_level": 0.6,
+        "trust_level": 0.4,
+        "frustration_level": 0.5,
+        "empathy_level": 0.3
+    },
+    "cognitive_state": {
+            "focus": 0.9,
+            "fatigue": 0.4,
+            "analytical_mode": 0.9,
+            "emotional_mode": 0.3,
+            "risk_tolerance": 0.4,
+            "decisiveness": 0.8
+    },
+    "counterpart": {
+        "name": "Elsa Hiivala",
+        "gender": "Woman",
+        "role": "Product Owner",
+        "product_area": "Frontend Applications"
+    }
+}

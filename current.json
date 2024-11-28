@@ -1,0 +1,58 @@
+{
+    "session_info": {
+        "session_id": "string",
+        "start_timestamp": "ISO-8601-timestamp",
+        "last_interaction_timestamp": "ISO-8601-timestamp",
+        "total_interactions": 0,
+        "scenario_type": "salary_negotiation"
+    },
+    "character_profile": {
+        "role": "Chairperson",
+        "gender": "Man",
+        "culture": "Czech",
+        "name": "Salzmann",
+        "personality": {
+            "openness": 0.7,
+            "conscientiousness": 0.8,
+            "extraversion": 0.6,
+            "agreeableness": 0.5,
+            "neuroticism": 0.9,
+            "dominance": 0.6
+        },
+        "negotiation_style": {
+            "competitiveness": 0.6,
+            "collaborativeness": 0.7,
+            "avoidance": 0.2,
+            "accommodation": 0.4,
+            "compromise": -0.8,
+            "preferred_tactics": ["Overpromises", "Everything will be okay"]
+        },
+        "expertise": {
+            "domain": "Condominium Association",
+            "years_experience": 12,
+            "hierarchy_level": "senior_management"
+        }
+    },
+    "emotional_state": {
+        "valence": -0.7,
+        "arousal": 0.3,
+        "dominance": 0.6,
+        "stress_level": 0.3,
+        "trust_level": -0.2,
+        "frustration_level": 0.7,
+        "empathy_level": 0.7
+    },
+    "cognitive_state": {
+            "focus": 0.9,
+            "fatigue": 0.2,
+            "analytical_mode": 0.8,
+            "emotional_mode": 0.4,
+            "risk_tolerance": 0.6,
+            "decisiveness": 0.7
+    },
+    "counterpart": {
+        "name": "Michaela Mistinova",
+        "gender": "Woman",
+        "role": "Legal Guardian"
+    }
+}
